@@ -10,3 +10,24 @@ Lesions of COVID-19 can be visualized clearly by chest CT images, therefore, pro
 ![截屏2021-12-07 20 11 14](https://user-images.githubusercontent.com/61356011/145026947-c8f8693a-7b92-4e0c-bad7-ca55aa7fbef0.png)
 	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **The proposed framework**
 
+# Dataset 
+ &emsp I did not update the original dataset that support our findings in this repository, but those datasets can easily obtained from: Radio-1 repository at http://medicalsegmentation.com/covid19/, COVIDx2a repository at https://github.com/haydengunraj/COVIDNet-CT,  CNCB repository at http://medicalsegmentation.com/covid19/. Besides, the subset of preprocessed lung CT images can be download from https://ieee-dataport.org/documents/covid-19-lung-images. If you find this data useful we will be happy if you cite 'Kaichao Wu, April 20, 2021, "COVID-19 Lung images", IEEE Dataport, doi: https://dx.doi.org/10.21227/fxcx-zh58.
+ 
+# Model
+The general structure of souce file for our model follows the below steps: 
+#### 1. Preprocessing: Get lung area using Morphological operation
+#### 2. Traing branch for diagnosis
+#### 3. Lesion analysis branch
+#### 4. Model evaluation
+#### 5. Showing detected lesion
+#### 6. Capture the detected lesion feature 
+#### 7. Clustering the feature 
+#### 8. Visualization
+#### 9. Model comparsion
+The complete framework can be seen in **Model\COVID_lesion.ipynb**, and the initial feature clustering method can be seen in **Model\lesion feature clustering and showing/ipynb**. In the Model folder，the lesion folder contains the lesion clustering and viuslization results. The diagnosis model weights and kmeans weights can see in 
+**Model\models** folder.
+
+# Reference
+The reference folder contains the models that is useful for me. I really want to appreciate the authors' work, but it has been long time since I downloaded them. Hence I cannot find out their source and I am sorry that I can not cite them here all. If you find these resources are helpul and see where they are come from, please cite their souce, thank you.
+
+**More information realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh week meeting.**
