@@ -24,10 +24,10 @@ The general structure of souce file for our model follows the below steps:
 #### 7. Clustering the feature 
 #### 8. Visualization
 #### 9. Model comparsion
-The complete framework can be seen in **Model\COVID_lesion.ipynb**, and the initial feature clustering method can be seen in **Model\lesion feature clustering and showing/ipynb**. In the Model folder，the lesion folder contains the lesion clustering and viuslization results. The diagnosis model weights and kmeans weights can see in 
+The complete framework can be seen in **Model\COVID_lesion.ipynb**, and the initial feature clustering method can be seen in **Model\lesion feature clustering and showing/ipynb**. In the Model folder，the lesion folder contains the lesion clustering and viuslization results. The diagnosis model weights and kmeans weights can be seen in 
 **Model\models** folder.
 
 # Reference
-The reference folder contains the models that is useful for me. I really want to appreciate the authors' work, but it has been long time since I downloaded them. Hence I cannot find out their source and I am sorry that I can not cite them here all. If you find these resources are helpul and see where they are come from, please cite their souce, thank you.
+The reference folder contains the models that is useful for me. I really want to appreciate the authors' work, but it has been long time since I downloaded them. Hence I cannot find out their source and I am sorry that I can not cite them here all. If you think these resources are helpul and have seen where they are come from, please cite their souce, thank you.
 
-**More information realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh week meeting.**
+**More detalis realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh week meeting.**
