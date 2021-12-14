@@ -30,4 +30,4 @@ The complete framework can be seen in **Model\COVID_lesion.ipynb**, and the init
 # Reference
 The reference folder contains the models that is useful for me. I really want to appreciate the authors' work, but it has been long time since I downloaded them. Hence I cannot find out their source and I am sorry that I can not cite them here all. If you think these resources are helpul and have seen where they are come from, please cite their souce, thank you.
 
-**More detalis realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh week meeting.**
+**More detalis realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh weekly group meeting.**
