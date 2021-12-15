@@ -36,7 +36,7 @@ The general structure of souce file for our model follows the below steps:
 #### 8. Visualization
 #### 9. Model comparsion
 The complete framework can be seen in **Model\COVID_lesion.ipynb**, and the initial feature clustering method can be seen in **Model\lesion feature clustering and showing.ipynb**. In the Model folder，the lesion folder contains the lesion clustering and viuslization results. The diagnosis model weights and kmeans weights can be seen in 
-**Model\models** folder.
+**Model\models** folder. You can load "FeCNN-fold1-09-0.9940.hdf5" to fine tune the model.
 
 
 **More detalis realted to the framework can be seen in a PPT file named seventh.pptx, which I reported it in my seventh weekly group meeting.**
